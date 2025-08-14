@@ -24,3 +24,18 @@ let math= function(x,y) {
 }
 
 console.log(math(5, 10));
+
+let add =(x,y) => {
+   return x + y;
+}
+console.log(add(5, 10));
+
+function process(x, y, callback) {
+    return callback(x, y);
+}
+
+function multiply(a, b) {
+    return a * b;
+}
+
+console.log(process(5, 3, multiply)); // Outputs 15

@@ -1,12 +1,13 @@
 button {
-    background-color: red;
+    background-color: rgb(24, 3, 3);
     color: white;
     padding: 10px 20px;
     font-size: medium;
     font-family: sans-serif;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
+    transition-duration: 1ms;
 }
 button:hover {
     background-color: darkred;
