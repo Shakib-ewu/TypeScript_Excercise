@@ -5,7 +5,7 @@ let count = 30
 newMessage = "100";
 console.log(newMessage);
 
-let x = 5;
+x = 5;
 x = 7;
 x = x + x;
 alert(x); // This will show 14
