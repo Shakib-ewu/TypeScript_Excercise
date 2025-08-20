@@ -39,3 +39,4 @@ function multiply(a, b) {
 }
 
 console.log(process(5, 3, multiply)); // Outputs 15
+
