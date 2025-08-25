@@ -5,10 +5,10 @@ console.log("Hello, TypeScript!");
 //var -we don't use var anymore, it has a lot of issues
 
 //functional scope vs block scope
-let message: string = "Welcome to TypeScript!";
+const welcomeMessage: string = "Welcome to TypeScript!";
 function greet() {
     let name: string = "Alice";
-    console.log(`${message} Hello, ${name}!`);
+    console.log(`${welcomeMessage} Hello, ${name}!`);
 }
 greet();
 
